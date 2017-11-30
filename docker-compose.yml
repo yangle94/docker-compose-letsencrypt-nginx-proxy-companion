@@ -41,7 +41,6 @@ services:
     environment:
       NGINX_DOCKER_GEN_CONTAINER: ${DOCKER_GEN}
       NGINX_PROXY_CONTAINER: ${NGINX_WEB}
-
 networks:
   default:
     external:
